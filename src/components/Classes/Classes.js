@@ -1,30 +1,30 @@
-// import React, { useState, useEffect } from 'react';
-// import './Classes.scss';
-// import Product from '../product/Product';
+import React, { useState, useEffect } from 'react';
+import './Classes.scss';
+import Product from '../product/Product';
 
-// const Classes = () => {
+const Classes = () => {
 
-//     const [product, setProduct] = useState([]);
+    const [product, setProduct] = useState([]);
 
-//     useEffect(() => {
+    useEffect(() => {
 
-//         fetch('https://aqueous-hamlet-41338.herokuapp.com/products')
-//             .then(response => response.json())
-//             .then(data => {
-//                 setProduct(data);
-//             })
-//     }, [])
+        fetch('https://localhsot:3000/products')
+            .then(response => response.json())
+            .then(data => {
+                setProduct(data);
+            })
+    }, [])
 
-//     let i =1;
-//     return (
-//         <div className="container">
-//             <div className="row">
-//                 {
-//                     product.map(product => <Product key={product._id} product={product} index ={i++}></Product>)
-//                 }
-//             </div>
-//         </div>
-//     );
-// };
+    let i =1;
+    return (
+        <div className="container">
+            <div className="row">
+                {
+                    product.map(product => <Product key={product._id} product={product} index ={i++}></Product>)
+                }
+            </div>
+        </div>
+    );
+};
 
-// export default Classes;
+export default Classes;

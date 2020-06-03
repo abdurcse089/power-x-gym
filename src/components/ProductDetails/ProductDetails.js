@@ -3,7 +3,11 @@ import './ProductDetails.scss';
 import { useParams } from 'react-router-dom';
 
 import Psycho from '../../Images/victor-freitas-546919-unsplash.png';
-
+// import Self from '../../Images/baylee-gramling-5m4Z14SDL80-unsplash.jpg';
+// import Advance from '../../Images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg';
+// import Cardio from '../../Images/alora-griffiths-TuzrzArccvc-unsplash.jpg';
+// import Strength from '../../Images/john-fornander-FIu48iuo_4g-unsplash.jpg';
+// import Psycho2 from '../../Images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg';
 import check from '../../Images/checkmark-square-2.png';
 
 

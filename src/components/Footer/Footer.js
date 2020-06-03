@@ -19,7 +19,7 @@ const Footer = () => {
                     <h5><a className="text-white" href="https://github.com/abdurcse089">Help Center</a></h5>
                     <h5><a className="text-white" href="https://github.com/abdurcse089">Email Support</a></h5>
                     <h5><a className="text-white" href="https://github.com/abdurcse089">Live Chat</a></h5>
-                    <h5><a className="text-white" href="https://github.com/sabdurcse089">Gift Certificates</a></h5>
+                    <h5><a className="text-white" href="https://github.com/abdurcse089">Gift Certificates</a></h5>
                     <h5><a className="text-white" href="https://github.com/abdurcse089">Send Us Feedback</a></h5> 
 
                     </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <h5>Connect with Us</h5>
                         <a href="https://github.com/abdurcse089"><img src={youtube}alt=""/></a>
                         <a href="https://github.com/abdurcse089"><img src={fb} alt=""/></a>
-                        <a href="https://github.com/abdurcse089"><img src={instra} alt=""/></a>
+                        <a href="https://github.com/sabdurcse089"><img src={instra} alt=""/></a>
                         <a href="https://github.com/abdurcse089"><img src={twiter} alt=""/></a>
                         <a href="https://github.com/abdurcse089"><img src={whatsapp} alt=""/></a>
                         <a className="text-white" href="https://github.com/abdurcse089">Forums</a>
