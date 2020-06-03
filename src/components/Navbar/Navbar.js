@@ -15,25 +15,25 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/home">Home<span className="sr-only">(current)</span></a>
+                                <Link className="nav-link text-white" to="/home">Home<span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/services">Services</a>
+                                <Link className="nav-link text-white" to="/services">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/ourClasses">Our Classes</a>
+                                <Link className="nav-link text-white" to="/ourClasses">Our Classes</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/aboutUs">About Us</a>
+                                <Link className="nav-link text-white" to="/aboutUs">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/blog">Blog</a>
+                                <Link className="nav-link text-white" to="/blog">Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/pricing">Pricing</a>
+                                <Link className="nav-link text-white" to="/pricing">Pricing</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="/contactUs">Contact Us</a>
+                                <Link className="nav-link text-white" to="/contactUs">Contact Us</Link>
                             </li>
                         </ul>
                     </div>
